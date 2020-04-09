@@ -1,5 +1,6 @@
 import React from 'react';
 import { Heading } from './components/Heading'
+import Person from './components/Person';
 import logo from './logo.svg';
 import './App.css';
 
@@ -20,6 +21,7 @@ function App() {
         >
           Learn React
         </a>
+        <Person name="Billy-Joe Bob" callbackMethod={myPersonFunction} />
       </header>
     </div>
   );
